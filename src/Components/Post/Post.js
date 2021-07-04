@@ -40,7 +40,7 @@ function Post({username,imgUrl,caption,postId,user}) {
             <div className="Post__avatar">
                 <Avatar className="post__Avatar"
                 alt="Danie" src="/static/images/avatar/1.img "/>
-                <h3 className="Post__username" >{username}</h3>
+                <h3 className="Post__username">{username}</h3>
             </div>
             <img className="post__img" src={imgUrl}></img>
             <h4 className="Post__capt" ><strong>{username}</strong> {caption}</h4>
