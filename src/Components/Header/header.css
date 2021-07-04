@@ -1,0 +1,16 @@
+.header__nav{
+    display: flex;
+    align-items: center;
+    height: 54px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: rgba(var(--d87,255,255,255),1);
+}
+.header__navimg{
+    /* width: 50%; */
+    padding: 0 20px;
+}
+.header__div{
+    margin-bottom: 24px;
+    display: flex;
+    width: 100%;
+}
